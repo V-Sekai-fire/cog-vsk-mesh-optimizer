@@ -27,3 +27,7 @@ curl -o openapi.json http://localhost:<port>/openapi.json
 # Use the OpenAPI GUI to upload the image
 # "model_file": "slavic_girl_brown_hair.glb"
 ```
+
+### Troubleshooting
+
+If you cannot `cog push` in Docker Desktop, try disabling containerd.
