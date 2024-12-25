@@ -9,7 +9,7 @@ class Predictor(BasePredictor):
     def predict(
         self, 
         model_file: File = Input(description="3D model file in .glb format"),
-        scale_percentage: float = Input(description="Scale percentage for -si", default=1.0),
+        scale_percentage: float = Input(description="Scale percentage for -si", default=0.01),
         error_percentage: float = Input(description="Error percentage for -se", default=0.01)
     ) -> Path:
         """Run a single prediction on the model"""
