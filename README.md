@@ -17,17 +17,6 @@ To optimize a 3D model, use the `cog predict` command with the appropriate input
 cog predict -i model_file=@slavic_girl_brown_hair.glb
 ```
 
-## Example OpenAPI Line Usage
-
-```bash
-cog serve
-# Ensure the server is running and note the port it is using (it may vary)
-curl -o openapi.json http://localhost:<port>/openapi.json
-# Open the openapi.json file in https://mermade.github.io/openapi-gui/
-# Use the OpenAPI GUI to upload the image
-# "model_file": "slavic_girl_brown_hair.glb"
-```
-
 ### Troubleshooting
 
 If you cannot `cog push` in Docker Desktop, try disabling containerd.
